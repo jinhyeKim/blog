@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+div {
+  box-sizing : border-box;
+}
+#엄지척{
+  font-size: 40px;
+}
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 3px solid hotpink
+}
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+}
+.black-nave {
+  display: flex;
+  background: black ;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
